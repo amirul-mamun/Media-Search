@@ -14,7 +14,7 @@ const Home = () => {
         {query != '' ? <div> <Tabs/>
           <ResultGreed/>
           </div> : <div className='flex items-center justify-center'> 
-            <h2 className='text-2xl text-gray-200 mt-[30vh]'> You can Search for any Photos, Videos or Gifs You will find everything here.</h2> </div> }
+            <h2 className='text-2xl text-gray-200 mt-[30vh]'> You can Search here for any Photos, Videos or Gifs You will find everything here.</h2> </div> }
 
     </div>
   )
