@@ -16,7 +16,7 @@ const Collection = () => {
             <button className='px-3 py-2 bg-red-600 m-2 text-white active:scale-95 cursor-pointer rounded' 
              onClick={function(){clearAll()}}
             >Clear All</button>
-        </div> : <h2 className='text-2xl text-center font-medium'>Your Collection</h2>
+        </div> : <h2 className='text-2xl text-center font-medium'>Your All Collection</h2>
 }
 
        <div className='flex flex-wrap justify-start gap-6' >
