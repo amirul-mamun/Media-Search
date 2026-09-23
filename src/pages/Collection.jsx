@@ -12,7 +12,7 @@ const Collection = () => {
   return (
     <div className='overflow-auto px-10 py-6'>
       {collection.length > 0 ?  <div className='flex justify-between mb-6'>
-            <h2 className='text-2xl font-medium'>Your Collection</h2>
+            <h2 className='text-2xl font-medium'>Your All Collection</h2>
             <button className='px-3 py-2 bg-red-600 m-2 text-white active:scale-95 cursor-pointer rounded' 
              onClick={function(){clearAll()}}
             >Clear All</button>
